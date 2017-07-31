@@ -1,12 +1,4 @@
-const { resolve } = require('path');
-const entries = require('../../manifest');
-
 module.exports = {
-  entry: entries,
-  output: {
-    path: resolve('dist'),
-    filename: '[name].js',
-  },
   module: {
     rules: [
       {
